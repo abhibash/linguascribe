@@ -276,7 +276,4 @@ with tab3:
         st.download_button("Download Translation", st.session_state['translated_text'], file_name="translation.txt")
 
 
-# Download options (in any tab)
-#if 'transcribed_text' in st.session_state:
-   # st.download_button("Download Transcription", st.session_state['transcribed_text'], file_name="transcription.txt")
 

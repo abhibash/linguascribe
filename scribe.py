@@ -153,7 +153,7 @@ def load_model(whisper_model):
     return whisper.load_model(whisper_model)
 
 model = load_model(whisper_model)
-#st.text("Whisper model loaded")
+
 col1,col2 = st.columns([6,1])
 with col1:
     st.header("Lingua:blue[Scribe]")

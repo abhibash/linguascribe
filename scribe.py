@@ -148,7 +148,7 @@ with st.sidebar:
    
     
 # Load Whisper model with caching
-@st.cache_resource
+#@st.cache_resource
 def load_model(whisper_model):
     return whisper.load_model(whisper_model)
 

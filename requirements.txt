@@ -1,7 +1,7 @@
 # Python dependencies
 streamlit
 Pillow
-whisper == 3.11
+whisper == 1.1.10
 googletrans==3.1.0a0
 ffmpeg-python==0.2.0
 --extra-index-url https://download.pytorch.org/whl/cpu
